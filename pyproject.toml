@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cybersecurity-enterprise-agent"
+version = "0.1.0"
+description = "Enterprise Agentic AI Cybersecurity Investigation System"
+authors = [
+    {name = "Benjamin Olu Areola"}
+]
+requires-python = ">=3.10"
+
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+
+testpaths = [
+    "tests"
+]
